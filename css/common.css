@@ -1,6 +1,9 @@
-:root
-body
-header
-sitenav
-logo
-footer
+:root {
+--heder-text-color:#212121
+--description-text-color:
+#757575
+--footer-color:background: #2F303A;
+--accent-color:#2196F3
+}
+
+
