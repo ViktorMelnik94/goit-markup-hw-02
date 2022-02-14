@@ -1,18 +1,25 @@
+/* variables */
 :root {
---heder-text-color:#212121
---description-text-color:
-#757575
---footer-color:background: #2F303A;
---accent-color:#2196F3
+--heder-text-color:#212121;
+--description-text-color:#757575;
+--footer-color-background: #2F303A;
+--button-color:
+--accent-color:#2196F3;
+--
 }
-
+/* header */
 .tel:hover{
     color:#2196F3;
 }
+
 .mailto:hover{
     color: #2196F3;
 }
 
+.logo {
+    font-family: Raleway;
+}
+
+/* button */
 .pointer {
   cursor: pointer;
-
