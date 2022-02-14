@@ -6,4 +6,13 @@
 --accent-color:#2196F3
 }
 
+.tel:hover{
+    color:#2196F3;
+}
+.mailto:hover{
+    color: #2196F3;
+}
+
+.pointer {
+  cursor: pointer;
 
