@@ -1,5 +1,22 @@
+/* variables */
+:root {
+--headlines-text-color:#212121;
+--description-text-color:#757575;
+--footer-color-background: #2F303A;
+--button-color:
+--home-color: #2196F3;
+}
 body {
     background-color:#fff;
     font-family:Roboto;
-
 }
+
+/* button */
+.pointer {
+  cursor: pointer;
+
+/*headlines*/
+
+.headlines: var(--headlines-text-color);
+
+.description: var(--description-text-color);

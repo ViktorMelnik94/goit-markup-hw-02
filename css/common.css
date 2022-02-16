@@ -1,13 +1,12 @@
 /* variables */
 :root {
---heder-text-color:#212121;
+--headlines-text-color:#212121;
 --description-text-color:#757575;
 --footer-color-background: #2F303A;
 --button-color:
---accent-color:#2196F3;
---
+--home-color: #2196F3;
 }
-/* header */
+/* header-footer*/
 .tel:hover{
     color:#2196F3;
 }
@@ -20,6 +19,6 @@
     font-family: Raleway;
 }
 
-/* button */
-.pointer {
-  cursor: pointer;
+.blu-web{
+    color: var(--home-color);
+}
