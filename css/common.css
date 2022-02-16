@@ -1,24 +1,49 @@
 /* variables */
 :root {
---headlines-text-color:#212121;
+--heder-text-color:#212121;
 --description-text-color:#757575;
 --footer-color-background: #2F303A;
 --button-color:
 --home-color: #2196F3;
 }
 /* header-footer*/
-.tel:hover{
+.tel:hover,
+.tel:focus{
     color:#2196F3;
 }
 
-.mailto:hover{
+.mailto:hover,
+.mailto:focus{
     color: #2196F3;
 }
 
 .logo {
     font-family: Raleway;
+    font-size: 26px;
 }
 
 .blu-web{
     color: var(--home-color);
+}
+
+.studio:hover,
+.studio:focus,
+.studio:active{
+    color: #2196F3;
+}
+
+.portfolio:hover,
+.portfolio:focus,
+.portfolio:active{
+    color: #2196F3;
+}
+
+.contacts:hover,
+.contacts:focus,
+.contacts:active{
+    color: #2196F3;
+}
+.site-nav{
+    font-size: 14px;
+    color: #212121;
 }
