@@ -44,6 +44,8 @@
     color: #2196F3;
 }
 .site-nav{
-    font-size: 14px;
     color: #212121;
+    font-weight: 500;
+    line-height: 1.14;
+
 }

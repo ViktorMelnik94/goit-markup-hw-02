@@ -7,6 +7,9 @@
 --footer-color-background:#2F303A;
 --button-color:#2196F3;
 --home-color: #2196F3;
+--portfolio-headlines-text-color:#212121;
+--portfolio-description-text-color:#757575;
+
 }
 body {
     background-color:#fff;
@@ -30,6 +33,8 @@ body {
 
 .general-title {
     font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
     color: #FFFFFF;
     background-color: #2F303A;;
 }
@@ -37,6 +42,8 @@ body {
 .secondary-titles {
     font-size: 36px;
     color: var(--headlines-text-color);
+    font-weight: bold;
+    line-height: 1.16;
 }
 
 /* advantages */
@@ -44,11 +51,13 @@ body {
 .advantages-title {
     font-size: 14px;
     color: var(--advantages-title-text-color);
+    font-weight: bold;
+    line-height: 1.14;
 }
 
 .advantages-description {
-    font-size: 14px;
     color: var(--advantages-description-text-color)
+    line-height: 1.71;
 }
 
 /* our-team */
@@ -56,11 +65,14 @@ body {
 .employee-name {
     font-size: 16px;
     color: var(--employee-name-text-color);
+    font-weight: 500;
+    line-height: 1.18;
 }
 
 .specialty {
     font-size: 16px;
     color: var(--specialty-text-color)
+    line-height: 1.18;
 }
 
 
@@ -68,9 +80,13 @@ body {
 
 .portfolio-headlines {
     font-size: 18px;
-    
+    color: var(--portfolio-headlines-text-color);
+    font-weight: bold;
+    line-height: 2;
 }
 
 .portfolio-description {
     font-size: 16px;
+    color: var(--portfolio-description-text-color);
+    line-height: 1.87;
 }
