@@ -1,8 +1,10 @@
 /* variables */
 :root {
---headlines-text-color:#212121;
---description-text-color:#757575;
---footer-color-background: #2F303A;
+--advantages-title-text-color:#212121;
+--advantages-description-text-color:#757575;
+--employee-name-text-color:#212121;
+--specialty-text-color:#757575;
+--footer-color-background:#2F303A;
 --button-color:#2196F3;
 --home-color: #2196F3;
 }
@@ -19,28 +21,56 @@ body {
 
 .button {
   cursor: pointer;
-  color:var(--headlines-text-color)
+  color:var(--headlines-text-color);
   font-size: 16px;
+  background-color: red;
+}
   
-/*text*/
-
-.headlines: var(--headlines-text-color);
-
-.description: var(--description-text-color);
+/* text */
 
 .general-title {
     font-size: 44px;
     color: #FFFFFF;
+    background-color: #2F303A;;
 }
-.description {
-    font-size: 14px;
-    color: var(--description-text-color);
-}
-.headlines {
-    font-size: 14px;
-    color: var(--headlines-text-color);
-}
+
 .secondary-titles {
     font-size: 36px;
     color: var(--headlines-text-color);
+}
+
+/* advantages */
+
+.advantages-title {
+    font-size: 14px;
+    color: var(--advantages-title-text-color);
+}
+
+.advantages-description {
+    font-size: 14px;
+    color: var(--advantages-description-text-color)
+}
+
+/* our-team */
+
+.employee-name {
+    font-size: 16px;
+    color: var(--employee-name-text-color);
+}
+
+.specialty {
+    font-size: 16px;
+    color: var(--specialty-text-color)
+}
+
+
+/* portfolio */
+
+.portfolio-headlines {
+    font-size: 18px;
+    
+}
+
+.portfolio-description {
+    font-size: 16px;
 }
