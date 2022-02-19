@@ -5,30 +5,49 @@
 --employee-name-text-color:#212121;
 --specialty-text-color:#757575;
 --footer-color-background:#2F303A;
---button-color:#2196F3;
+--button-text-color:#FFFFFF;
 --home-color: #2196F3;
+--headlines-text-color:#212121;
 --portfolio-headlines-text-color:#212121;
 --portfolio-description-text-color:#757575;
-
+--background-button-color:#2196F3;
 }
+
 body {
     background-color:#fff;
     font-family:Roboto;
     font-size: 14px;
 }
 
-/* button */
-.service-order {
-    background: #2196F3;
+li {
+    list-style-type: none;
 }
 
-.button {
-  cursor: pointer;
-  color:var(--headlines-text-color);
-  font-size: 16px;
-  background-color: red;
+a { 
+    text-decoration: none; 
+}
+
+
+/* button */
+.service-order {
+    cursor: pointer;
+    color: var(--button-text-color);
+    background: var(--background-button-color);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
 }
   
+.button {
+  cursor: pointer;
+  color: var(--button-text-color);
+  background: var(--background-button-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  font-family: Roboto;
+}
+
 /* text */
 
 .general-title {
@@ -75,7 +94,6 @@ body {
     line-height: 1.18;
 }
 
-
 /* portfolio */
 
 .portfolio-headlines {
@@ -90,3 +108,4 @@ body {
     color: var(--portfolio-description-text-color);
     line-height: 1.87;
 }
+
