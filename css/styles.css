@@ -55,7 +55,8 @@ a {
     font-weight: 900;
     line-height: 1.36;
     color: #FFFFFF;
-    background-color: #2F303A;;
+    background-color: #2F303A;
+    text-transform: uppercase;
 }
 
 .secondary-titles {
@@ -72,6 +73,8 @@ a {
     color: var(--advantages-title-text-color);
     font-weight: bold;
     line-height: 1.14;
+    text-transform: uppercase;
+}
 }
 
 .advantages-description {
