@@ -7,6 +7,11 @@
 --akcent-color: #2196F3;
 }
 /* header-footer*/
+
+.tel, .mailto{
+    color:#212121;
+}
+
 .tel:hover,
 .tel:focus{
     color:#2196F3;
@@ -58,10 +63,25 @@
     color: black;
 }
 
+.studio, .portfolio, .contacts{
+    color: #212121;
+    font-weight: 500;
+    line-height: 1.14;
+}
+
+.studio:visited, .portfolio:visited, .contacts:visited{
+    color: #212121;
+}
+
+.curent, .curent:visited {
+    color:var(--akcent-color);
+}
+
 .studio:hover,
 .studio:focus,
 .studio:active{
     color: #2196F3;
+    
 }
 
 .portfolio:hover,
@@ -74,17 +94,4 @@
 .contacts:focus,
 .contacts:active{
     color: #2196F3;
-}
-
-.site-nav{
-    color: #212121;
-    font-weight: 500;
-    line-height: 1.14;
-}
-
-.curent {
-    color:var(--akcent-color)
-}
-.link {
-    color:var(--akcent-color)
 }
