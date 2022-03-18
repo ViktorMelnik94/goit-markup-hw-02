@@ -17,6 +17,7 @@ body {
     background-color:#fff;
     font-family:Roboto;
     font-size: 14px;
+    color: #757575;
 }
 
 li {
@@ -80,6 +81,7 @@ a {
 .advantages-description {
     color: var(--advantages-description-text-color)
     line-height: 1.71;
+    font-weight:400px;
 }
 
 /* our-team */
